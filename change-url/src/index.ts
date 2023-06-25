@@ -8,9 +8,10 @@ const main = async () => {
     return await Clipboard.copy("");
   }
 
+
   const localhost = "http://localhost:8001/";
   const testCode = "&test_code=17A472FC374610CBF20A787910A29592EC3D0BA5E2986D120639A8F7639B09FB";
-  const code = url.substring(26);
+  const code = url.substring(71);
 
   const result = localhost + code + testCode;
 
